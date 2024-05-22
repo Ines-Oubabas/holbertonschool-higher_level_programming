@@ -42,7 +42,7 @@ class Rectangle:
 
     """ Method to calculate the perimeter of the rectangle"""
     def perimeter(self):
-        """Check if either width or height is zero, in which case perimeter is 0"""
+        """Check if either width or height is 0, which case perimeter is 0"""
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
