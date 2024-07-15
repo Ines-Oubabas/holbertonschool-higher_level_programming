@@ -1,4 +1,4 @@
-# main.py
+#!/usr/bin/env python3
 
 from task_00_intro import generate_invitations
 
